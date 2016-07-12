@@ -14,7 +14,7 @@ Comando para crear el contenedor basado en la imagen offical y con la colección
 
 #Contenedor php
 
-Comando para crear el contenedor basado en la images [lliccien/docker-symfony-drupal](https://github.com/lliccien/Docker-Symfony-Drupal){:target="_blank"} especialmente ajusta para trabajar con symfony
+Comando para crear el contenedor basado en la imagen [lliccien/docker-symfony-drupal](https://github.com/lliccien/Docker-Symfony-Drupal) especialmente ajusta para trabajar con symfony
 
     docker run -p 80:80 -v ~/www/symfony:/var/www/html --name symfony --link mysql:mysql -d lliccien/docker-symfony-drupal:latest 
 
