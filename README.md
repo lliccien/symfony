@@ -24,4 +24,20 @@ Comando para crear el contenedor basado en la imagen [lliccien/docker-symfony-dr
 
 * Se utilizo el comando umask(0000) para resolver la permisologio y acceso a los archivos y directorios de symfony
 
+#Comandos para inicializar luego de clonar este repositorio
+
+Crear la Base de Datos
+
+    php app/console doctrine:database:create
+
+Crear la Bestructura de la Base de Datos
     
+    php app/console doctrine:schema:update --force    
+
+Crear Usuario
+
+    php app/console fos:user:create
+
+Promover Usuario
+
+    php app/console fos:user:promote

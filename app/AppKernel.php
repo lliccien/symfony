@@ -26,6 +26,7 @@ class AppKernel extends Kernel
                 new FOS\UserBundle\FOSUserBundle(),
                 new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
                 new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
+                new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
 
         );
 
