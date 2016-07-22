@@ -12,3 +12,4 @@
 /composer.phar
 .phpintel/*
 node_modules/*
+.idea/*
