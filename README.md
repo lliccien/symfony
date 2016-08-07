@@ -34,6 +34,10 @@ Crear la Bestructura de la Base de Datos
     
     php app/console doctrine:schema:update --force    
 
+Inicializar los Assets
+
+    php app/console assets:install web --symlink
+
 Crear Usuario
 
     php app/console fos:user:create
