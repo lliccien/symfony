@@ -27,7 +27,7 @@ class AppKernel extends Kernel
                 new Sonata\UserBundle\SonataUserBundle('FOSUserBundle'),
                 new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
                 new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
-
+                new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
