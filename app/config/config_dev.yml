@@ -32,3 +32,8 @@ monolog:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+# AliceBundle Fictures
+hautelook_alice:
+    db_drivers:
+        orm: ~
