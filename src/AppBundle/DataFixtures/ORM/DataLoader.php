@@ -3,16 +3,17 @@
 namespace AppBundle\DataFixtures\ORM;
 
 use Hautelook\AliceBundle\Doctrine\DataFixtures\AbstractLoader;
+use Nelmio\Alice\Fixtures;
 
 class DataLoader extends AbstractLoader
 {
     /**
-     * {@inheritdoc}
+     * @return array
      */
     public function getFixtures()
     {
-        return [
-            __DIR__.'/users.yml',
-        ];
+        return array(
+                '@AppBundle/DataFixtures/ORM/examples.yml',
+        );
     }
 }

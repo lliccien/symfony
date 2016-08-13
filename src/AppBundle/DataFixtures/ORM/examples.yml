@@ -1,0 +1,8 @@
+AppBundle\Entity\Example:
+    example{1..10}:
+        fstring: '<sentence($nbWords = 6)>'
+        fdecinal: '<randomFloat($nbMaxDecimals = NULL, $min = 0, $max = 300)>'
+        ftext: '<realText($maxNbChars = 200, $indexSize = 2)>'
+        finteger: '<randomNumber($nbDigits = NULL)>'
+        fboolean: '<numberBetween($min = 0, $max = 1)>'
+        fdatetime: '<dateTimeBetween("now")>'
