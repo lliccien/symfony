@@ -28,17 +28,17 @@ class DefaultController extends Controller
         $html = $this->renderView('default/index.html.twig');
 
         return new Response(
-            $this->get('knp_snappy.pdf')->getOutputFromHtml($html,
+            $this->get('knp_snappy.pdf')->getOutputFromHtml(
+                $html,
                 array('page-size' => 'Letter',
                     'orientation'=>'Landscape',
-                    'default-header'=>false)),
+                'default-header'=>false)
+            ),
             200,
             array(
                 'Content-Type'          => 'application/pdf',
                 'Content-Disposition'   => 'attachment; filename="file.pdf"'
             )
         );
-
-    }   
-
+    }
 }
