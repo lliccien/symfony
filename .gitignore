@@ -12,3 +12,4 @@
 .phpintel/*
 node_modules/*
 .idea/*
+*.bak
