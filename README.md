@@ -45,3 +45,7 @@ Crear Usuario
 Promover Usuario
 
     php app/console fos:user:promote
+
+Instalaccion de paquetes (Requeire node, npm e instalar gulp global)
+
+    npm install    
