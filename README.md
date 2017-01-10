@@ -48,4 +48,7 @@ Promover Usuario
 
 Instalaccion de paquetes (Requeire node, npm e instalar gulp global)
 
+    sudo npm install gulp -g
+    sudo apt-get install ruby-full build-essential
+    sudo gem install sass
     npm install    
